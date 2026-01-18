@@ -1,6 +1,7 @@
 <script>
   import Navbar from "./lib/components/Navbar.svelte";
   import Hero from "./lib/components/Hero.svelte";
+  import Bio from "./lib/components/Bio.svelte";
   import ValueProp from "./lib/components/ValueProp.svelte";
   import ProjectList from "./lib/components/ProjectList.svelte";
   import Footer from "./lib/components/Footer.svelte";
@@ -12,6 +13,7 @@
 >
   <Navbar />
   <Hero />
+  <Bio />
   <ValueProp />
   <ProjectList />
   <Footer />
